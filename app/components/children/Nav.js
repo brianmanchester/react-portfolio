@@ -14,15 +14,15 @@ class Nav extends Component {
     return (
       <div>
         <div className="navbar-fixed">
-          <nav id="top">
+          <nav className="cyan darken-4" id="top">
             <div className="container">
               <div className="nav-wrapper">
-                <a href="/" className="brand-logo center">Brian Manchester</a>
+                <a href="/" className="brand-logo center">blm</a>
                 <a data-activates="mobile" className="button-collapse"><i className="material-icons">menu</i></a>
                 <ul id="nav-mobile" className="hide-on-med-and-down">
                   <li><a className="valign-wrapper" href="assets/files/Brian_Manchester_Resume.pdf" target="_blank"><i className="material-icons left">assignment</i>CV</a></li>
-                  <li><a className="valign-wrapper" href="https://www.linkedin.com/in/brian-l-manchester/" target="_blank"><img src="assets/img/linkedin_icon.png" className="icon left" />LinkedIn</a></li>
-                  <li><a className="valign-wrapper" href="https://github.com/bmanch" target="_blank"><img src="assets/img/github_icon.png" className="icon left" />Github</a></li>
+                  <li><a className="valign-wrapper" href="https://www.linkedin.com/in/brian-l-manchester/" target="_blank"><img src="assets/img/linkedin_icon_white.png" className="icon left" />LinkedIn</a></li>
+                  <li><a className="valign-wrapper" href="https://github.com/bmanch" target="_blank"><img src="assets/img/github_icon_white.png" className="icon left" />Github</a></li>
                 </ul>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                   <li><Link to="/">Home</Link></li>

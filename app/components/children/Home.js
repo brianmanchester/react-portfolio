@@ -7,12 +7,15 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="container bottom">
-        <div className="row space" id="marquis">
-          <div className="col s4 offset-s4 m4 offset-m4 l4 offset-l1 center-align">
-            <img className="circle responsive-img" src="assets/img/profile_pic.jpg" />
+      <div className="container">
+        <div className="row" id="marquis">
+          <div className="col s4 offset-s4 m4 offset-m4 l3 offset-l1 center-align">
+            <img className="circle responsive-img" id="profpic" src="assets/img/profile_pic.jpg" />
+            <blockquote>
+              Graduate of The Coding Boot Camp at UNC, Chapel Hill
+            </blockquote>
           </div>
-          <div className="col s12 m12 l7 center-align">
+          <div className="col s12 m12 l6 offset-l1 center-align">
             <h3>Brian Manchester</h3>
             <h4>Full Stack JavaScript Developer</h4>
             <br />
@@ -166,14 +169,14 @@ class Home extends Component {
           <div className="col s10 offset-s1 m8 offset-m2 l6">
             <div className="card medium hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src="assets/img/aardy.png" />
+                <img className="activator" src="assets/img/newprof.png" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4"><strong>Portfolio</strong><i className="material-icons right">keyboard_arrow_up</i></span>
                 <p>My personal website.</p>
               </div>
               <div className="card-action">
-                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="go to the app" href="https://doppelgaenger.herokuapp.com/" target="_blank"><i className="material-icons">desktop_mac</i></a>
+                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="go to the app" href="/" target="_blank"><i className="material-icons">desktop_mac</i></a>
                 <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="see the code on github" href="https://github.com/bmanch/react-portfolio" target="_blank"><i className="material-icons">code</i></a>
               </div>
               <div className="card-reveal">
