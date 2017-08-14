@@ -155,7 +155,7 @@ class Portfolio extends Component {
                 <span className="card-title activator grey-text text-darken-4"><strong>MERN News Search (In Progress)</strong><i className="material-icons right">keyboard_arrow_up</i></span>
               </div>
               <div className="card-action">
-                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="go to the app" href="https://intense-shelf-44096.herokuapp.com/" target="_blank"><i className="material-icons">desktop_mac</i></a>
+                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="coming soon"><i className="material-icons">desktop_mac</i></a>
                 <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="see the code on github" href="https://github.com/bmanch/nytimes-search-react" target="_blank"><i className="material-icons">code</i></a>
               </div>
               <div className="card-reveal">
