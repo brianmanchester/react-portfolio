@@ -197,7 +197,7 @@ class Home extends Component {
           <div className="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
             <div className="card medium hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src="assets/img/newprof.png" />
+                <img className="activator" src="assets/img/mern.png" />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4"><strong>MERN News Search</strong><i className="material-icons right">keyboard_arrow_up</i></span>
