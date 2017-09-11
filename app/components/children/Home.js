@@ -105,6 +105,35 @@ class Home extends Component {
               </div>
             </div>
           </div>
+          <div className="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
+            <div className="card medium hoverable sticky-action">
+              <div className="card-image waves-effect waves-block waves-light">
+                <img className="activator" src="assets/img/mern.png" />
+              </div>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4"><strong>MERN News Search</strong><i className="material-icons right">keyboard_arrow_up</i></span>
+                <p>Search for and save news articles.</p>
+              </div>
+              <div className="card-action">
+                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="go to the app" href="https://intense-shelf-44096.herokuapp.com/" target="_blank"><i className="material-icons">desktop_mac</i></a>
+                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="see the code on github" href="https://github.com/bmanch/nytimes-search-react" target="_blank"><i className="material-icons">code</i></a>
+              </div>
+              <div className="card-reveal">
+                <span className="card-title grey-text text-darken-4"><strong>MERN News Search</strong><i className="material-icons right">close</i></span>
+                <p><strong>Technologies...</strong></p>
+                <ul>
+                  <li>React and React Router pre-v4</li>
+                  <li>ES6</li>
+                  <li>MongoDB and Mongoose</li>
+                  <li>Node and Express</li>
+                  <li>API Consumption</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <p><strong>Description...</strong></p>
+                  <p>This is a MERN SPA app that allows the you to search for articles and save articles.</p>
+              </div>
+            </div>
+          </div>
           <div className="col s10 offset-s1 m8 offset-m2 l6">
             <div className="card medium hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
@@ -184,42 +213,12 @@ class Home extends Component {
                 <p><strong>Technologies...</strong></p>
                 <ul>
                   <li>React and React Router v4</li>
-                  <li>MongoDB and Mongoose</li>
                   <li>Node and Express</li>
                   <li>ES6</li>
                   <li>Materialize CSS</li>
                 </ul>
                 <p><strong>Description...</strong></p>
                   <p>This is actually the SPA you are looking at right now. The entire site is built in React and routing is handled using React Router version 4. This app uses ES6 wherever possible!</p>
-              </div>
-            </div>
-          </div>
-          <div className="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
-            <div className="card medium hoverable sticky-action">
-              <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src="assets/img/mern.png" />
-              </div>
-              <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4"><strong>MERN News Search</strong><i className="material-icons right">keyboard_arrow_up</i></span>
-                <p>My personal website.</p>
-              </div>
-              <div className="card-action">
-                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="go to the app" href="https://intense-shelf-44096.herokuapp.com/" target="_blank"><i className="material-icons">desktop_mac</i></a>
-                <a className="tooltipped" data-position="right" data-delay="50" data-tooltip="see the code on github" href="https://github.com/bmanch/nytimes-search-react" target="_blank"><i className="material-icons">code</i></a>
-              </div>
-              <div className="card-reveal">
-                <span className="card-title grey-text text-darken-4"><strong>MERN News Search</strong><i className="material-icons right">close</i></span>
-                <p><strong>Technologies...</strong></p>
-                <ul>
-                  <li>React and React Router pre-v4</li>
-                  <li>ES6</li>
-                  <li>MongoDB and Mongoose</li>
-                  <li>Node and Express</li>
-                  <li>API Consumption</li>
-                  <li>Bootstrap</li>
-                </ul>
-                <p><strong>Description...</strong></p>
-                  <p>This is a MERN SPA app that allows the you to search for articles and save articles.</p>
               </div>
             </div>
           </div>
