@@ -112,7 +112,9 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
+        </div>
 
+        <div className="row">
           <div className="col s12 m12 l4">
             <div className="card small hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
@@ -142,10 +144,7 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-        </div>
 
-
-        <div className="row">
           <div className="col s12 m12 l4">
             <div className="card small hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
