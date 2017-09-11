@@ -105,7 +105,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <div className="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
+          <div className="col s10 offset-s1 m8 offset-m2 l6">
             <div className="card medium hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src="assets/img/mern.png" />
@@ -195,7 +195,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
-          <div className="col s10 offset-s1 m8 offset-m2 l6">
+          <div className="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
             <div className="card medium hoverable sticky-action">
               <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src="assets/img/newprof.png" />
