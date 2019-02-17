@@ -17,12 +17,21 @@ class Home extends Component {
           </div>
           <div className="col s12 m12 l6 offset-l1 center-align">
             <h3>Brian Manchester</h3>
-            <h4>Full Stack JavaScript Developer</h4>
+            <h4>Full Stack Developer</h4>
             <br />
             <div className="row" id="prof">
               <h5>proficiencies</h5>
               <br />
               <div className="col s10 offset-s1">
+                <div className="chip">
+                  Typescript
+                </div>
+                <div className="chip">
+                  Javascript (es6+)
+                </div>
+                <div className="chip">
+                  OOP
+                </div>
                 <div className="chip">
                   Node.js
                 </div>
@@ -30,13 +39,28 @@ class Home extends Component {
                   Express
                 </div>
                 <div className="chip">
-                  MongoDB
+                  PostgresSQL
                 </div>
                 <div className="chip">
                   MySQL
                 </div>
                 <div className="chip">
+                  REST APIs
+                </div>
+                <div className="chip">
                   React
+                </div>
+                <div className="chip">
+                  Redux
+                </div>
+                <div className="chip">
+                  Next.js
+                </div>
+                <div className="chip">
+                  Material-UI
+                </div>
+                <div className="chip">
+                  MongoDB
                 </div>
                 <div className="chip">
                   Socket.io
