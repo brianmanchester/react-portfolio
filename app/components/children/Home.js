@@ -18,9 +18,11 @@ class Home extends Component {
           <div className="col s12 m12 l6 offset-l1 center-align">
             <h3>Brian Manchester</h3>
             <h4>Full Stack Developer</h4>
+            <h4>Co-Founder of List Turtle™</h4>
+            <h5><a href="https://www.listturtle.com" target="_blank">www.listturlte.com</a></h5>
             <br />
             <div className="row" id="prof">
-              <h5>proficiencies</h5>
+              <h5>Proficiencies</h5>
               <br />
               <div className="col s10 offset-s1">
                 <div className="chip">
@@ -28,9 +30,6 @@ class Home extends Component {
                 </div>
                 <div className="chip">
                   Javascript (es6+)
-                </div>
-                <div className="chip">
-                  OOP
                 </div>
                 <div className="chip">
                   Node.js
@@ -48,6 +47,9 @@ class Home extends Component {
                   REST APIs
                 </div>
                 <div className="chip">
+                  GraphQL
+                </div>
+                <div className="chip">
                   React
                 </div>
                 <div className="chip">
@@ -61,6 +63,9 @@ class Home extends Component {
                 </div>
                 <div className="chip">
                   MongoDB
+                </div>
+                <div className="chip">
+                  Angular
                 </div>
                 <div className="chip">
                   Socket.io
