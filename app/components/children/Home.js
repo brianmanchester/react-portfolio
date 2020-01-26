@@ -22,7 +22,7 @@ class Home extends Component {
             <h5><a href="https://www.listturtle.com" target="_blank">www.listturlte.com</a></h5>
             <br />
             <div className="row" id="prof">
-              <h5>Proficiencies</h5>
+              <h5>proficiencies</h5>
               <br />
               <div className="col s10 offset-s1">
                 <div className="chip">
